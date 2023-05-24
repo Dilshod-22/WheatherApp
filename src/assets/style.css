@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* // const url =
+//   "https://weatherapi-com.p.rapidapi.com/forecast.json?q=Namangan&days=3";
+// const options = {
+//   method: "GET",
+//   headers: {
+//     "X-RapidAPI-Key": "3df7cba90cmsh3cf97b08ac00df2p1ff8cejsn24f3cd5d976d",
+//     "X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com",
+//   },
+// };
+
+// try {f
+//   const response = await fetch(url, options);
+//   const result = await response.text();
+//   let res = JSON.parse(result)
+//   console.log(res);
+// } catch (error) {
+//   console.error(error);
+// } */
+
