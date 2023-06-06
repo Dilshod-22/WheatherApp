@@ -1,5 +1,6 @@
 <template>
   <div class="w-[650px] h-[500px] bg-[rgb(211,211,211,.5)] rounded-lg">
+    <button class="m-5 w-16 bg-blue-600 text-white font-semibold rounded-lg h-7 hover:bg-blue-700" @click="this.$emit('cancel')">Back</button>
     <h1 class="text-center mt-5 text-2xl font-medium">
       This data
       <span class="text-[rgb(0,0,255)]">

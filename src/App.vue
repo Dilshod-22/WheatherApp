@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen w-full app flex items-center justify-center">
-    <infoItem v-if="info" :info="info" />
+    <infoItem v-if="info" :info="info" @cancel="cancel"/>
     <searchPlace
       v-bind:infos="infos"
       v-model="search"
@@ -71,6 +71,10 @@ export default {
         console.error(error);
       }
     },
+    cancel(){
+      this.info=null
+      this.infos = ""
+    }
   },
 };
 </script>
