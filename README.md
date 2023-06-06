@@ -1,6 +1,5 @@
 # Deploy link
-
-https://647ee00b19913574f108f293--deluxe-granita-767850.netlify.app/
+https://647ee4f978675f0008b7f3c7--imaginative-souffle-a9ff14.netlify.app/
 
 # wheather
 
